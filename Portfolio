@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gricelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-container">
+        <a href="https://github.com/gpere190" target="_blank"><img class="github-icon"
+                src="images/GithubLogo.png"></a>
+        <a href="https://www.linkedin.com/in/gricelle-perez/" target="_blank"><img class="linkedin-icon"
+                src="images/LinkedinLogo.png"></a>
+        <img class="headshot" src="images/headshot1.jpg">
+        <div class="title-text">
+            <h1>Gricelle Perez</h1>
+            <h2 style="color:#66BFBF">I'm a <span class="typing" style="color:#5d27db"></span></h2>
+        </div>
+    </div>
+
+    <div class="middle-container">
+        <div>
+            <h2>About Me</h2>
+            <p class="about-me">First generation college graduate with a B.S. 
+            in Biomedical Engineer from Florida International University. After
+            working on some R&D projects, I became motivated to advancing my skill
+            set in computer programming and hardware. I am currently completing my 
+            master's degree in Computer Engineering at Florida International 
+            University and conducting research with JTAG usage for microcontroller
+            debugging and anomaly detection. My goal is to land a computer</p>
+        </div>
+        <hr>
+        <div class="projects">
+            <h2>Projects</h2>
+            <a href="https://github.com/gpere190/Internship" target="_blank" class="column-4 project-1">
+                <h2 class="project-text">AI Chat Bot</h2>
+                <img class="project-image" src="images/AI.jpg">
+            </a>
+
+            <a href="https://github.com/gpere190/Shell_Hacks_2021" target="_blank" class="column-4 project-2">
+                <h2 class="project-text">Crypto Miner</h2>
+                <img class="project-image" src="images/bitcoin.jpg">
+            </a>
+
+            <a href="https://github.com/gpere190/Research" target="_blank" class="column-4 project-3">
+                <h2 class="project-text">Object Recognition</h2>
+                <img class="project-image" src="images/objectRec.jpg">
+            </a>
+
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="bottom-container">
+        <h2>Contact</h2>
+        <a href="https://github.com/gpere190" target="_blank"><img
+            src="images/GithubLogo.png"></a>
+        <a href="https://www.linkedin.com/in/gricelle-perez/" target="_blank"><img class="footer-linkedin-icon"
+            src="images/LinkedinLogo.png"></a>
+            <a href="mailto:gpere190@fiu.edu?subject=Contact Gricelle" target="_blank"><img class="footer-email-icon"
+                src="images/Gmail.png"></a>
+    </div>
+
+    <script src="typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: ["Coder", "Developer", "Researcher"],
+            loop: true,
+            typeSpeed: 65,
+            backSpeed: 65
+        });
+    </script>
+</body>
+
+</html>
