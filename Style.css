@@ -1,0 +1,201 @@
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.github-icon {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.linkedin-icon {
+  position: absolute;
+  height: 32px;
+  width: 40px;
+  right: 350px;
+  top: 40px;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    color: #66BFBF;
+    font-size: 3.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Montserrat';
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  .headshot
+  {
+      border-radius: 50%;
+      width: 150px;
+      height: 160px;
+      margin-right: 70px;
+  }
+
+  hr {
+    border: solid #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  
+  .middle-container {
+    margin: 100px 20px 20px;
+  }
+
+  .about-me {
+    width: 30%;
+    margin: auto;
+    font-size: large;
+  }
+
+  .projects {
+    padding: auto;
+    padding-bottom: 100px;
+}
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+}
+
+.project-1 {
+  background-color: #669EBF;
+}
+
+.project-2 {
+  background-color:#66A9BF;
+}
+
+.project-3 {
+  background-color:#66B4BF;
+}
+
+.project-4 {
+  background-color:#66BFBF;
+}
+
+.project-5 {
+  background-color:#66BFB4;
+}
+
+.project-6 {
+  background-color:#66BFA9;
+}
+
+.project-7 {
+    background-color:#66BF9E;
+}
+
+.project-8 {
+  background-color: #31A094;
+}
+
+
+.project-text {
+  text-align:center;
+  font-size:  25px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  color: #2B5151;
+}
+
+.project-image {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    opacity: 0.5;
+  }
+  
+
+  a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+
+  .bottom-container h2 {
+    color: white;
+    margin-top: 10px;
+  }  
+  
+  .footer-linkedin-icon {
+    height: 32px;
+    width: 40px;
+  }
+
+  .footer-email-icon {
+    height: 32px;
+    width: 40px;
+  }
+  
+  
+  
+  
+  .project-1:hover {
+    background-color:#FEDE00;
+  }
+
+  .project-2:hover {
+    background-color:#FEDE00;
+  }
+  
+  .project-3:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-4:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-5:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-6:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-7:hover {
+     background-color: #FEDE00;
+  }
+
+  .project-8:hover {
+    background-color: #FEDE00;
+ }
+
+ .project-image:hover {
+  opacity: 1;
+}
